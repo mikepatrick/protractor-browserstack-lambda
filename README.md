@@ -1,4 +1,4 @@
-An AWS Lambda function that runs a Selenium test using Protractor.
+An AWS Lambda function that runs a Selenium test on BrowserStack using Protractor.
 
 Run the lambda function locally:
 
