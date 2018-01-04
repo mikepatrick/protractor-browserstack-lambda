@@ -1,0 +1,20 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/protractor conf.js",
+    "runlocal": "node_modules/.bin/sls invoke local --function protractor",
+    "deploy": "node_modules/.bin/sls deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^1.25.0"
+  },
+  "dependencies": {
+    "npm": "^5.6.0",
+    "protractor": "^5.2.2"
+  }
+}

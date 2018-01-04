@@ -1,0 +1,11 @@
+service: protractor
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  protractor:
+    handler: handler.runtest
+    memorySize: 128
+    timeout: 60
